@@ -24,8 +24,8 @@
 
 To get an element from while testing with -
 [@testing-library/react](https://github.com/testing-library/react-testing-library),
-we have 6 variants viz. getBy, getAllBy, queryBy, queryAllBy, findBy, and
-findAllBy.
+we have 6 variants viz. `getBy`, `getAllBy`, `queryBy`, `queryAllBy`, `findBy`,
+and `findAllBy`.
 
 We have to remember which one to use when. The name of methods is entirely a
 familiarity thing. But just by the name of the method it bit difficult to know
@@ -144,6 +144,10 @@ MIT
 <!-- prettier-ignore-start -->
 [npm]: https://www.npmjs.com
 [node]: https://nodejs.org
+[build-badge]: https://img.shields.io/travis/com/balavishnuvj/rtl-simple-queries.svg?style=flat-square
+[build]: https://travis-ci.com/balavishnuvj/rtl-simple-queries
+[coverage-badge]: https://img.shields.io/codecov/c/github/balavishnuvj/rtl-simple-queries.svg?style=flat-square
+[coverage]: https://codecov.io/github/balavishnuvj/rtl-simple-queries
 [version-badge]: https://img.shields.io/npm/v/rtl-simple-queries.svg?style=flat-square
 [package]: https://www.npmjs.com/package/rtl-simple-queries
 [downloads-badge]: https://img.shields.io/npm/dm/rtl-simple-queries.svg?style=flat-square
