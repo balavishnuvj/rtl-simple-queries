@@ -18,18 +18,14 @@ export const variants = [
 //   }
 // })
 
-function getProxySyncMethod(
-  variant,
-  queries,
-  {allowMultiple, allowEmpty} = {},
-) {
+function getProxySyncMethod(variant, queries, {allowMultiple, allowEmpty}) {
   const fnName = `${allowEmpty ? 'query' : 'get'}${
     allowMultiple ? 'All' : ''
   }By${variant}`
   return queries[fnName]
 }
 
-function getProxyAsyncMethod(variant, queries, {allowMultiple} = {}) {
+function getProxyAsyncMethod(variant, queries, {allowMultiple}) {
   const fnName = `find${allowMultiple ? 'All' : ''}By${variant}`
   return queries[fnName]
 }
@@ -40,7 +36,7 @@ function getSimpleQueries(utils) {
   variants.forEach(variant => {
     syncQueries[`fetchBy${variant}`] = (
       matcher,
-      {allowMultiple, allowEmpty, ...options} = {},
+      {allowMultiple = false, allowEmpty = false, ...options} = {},
       ...args
     ) => {
       const fn = getProxySyncMethod(variant, utils, {
@@ -51,7 +47,7 @@ function getSimpleQueries(utils) {
     }
     asyncQueries[`fetchBy${variant}Async`] = (
       matcher,
-      {allowMultiple, ...options} = {},
+      {allowMultiple = false, ...options} = {},
       ...args
     ) => {
       const fn = getProxyAsyncMethod(variant, utils, {
