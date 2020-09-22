@@ -8,7 +8,7 @@ node_js:
   - 14
   - node
 before_install:
-  - npm install peerDependency
+  - npm install @testing-library/react react react-dom
 install: npm install
 script:
   - npm run validate
