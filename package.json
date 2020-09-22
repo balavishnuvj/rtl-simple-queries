@@ -1,0 +1,51 @@
+{
+  "name": "rtl-simple-queries",
+  "version": "0.0.0-semantically-released",
+  "description": "Simple wrapper queries for @testing-library/react",
+  "main": "dist/index.js",
+  "keywords": [],
+  "author": "Balavishnu V J",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balavishnuvj/rtl-simple-queries"
+  },
+  "bugs": {
+    "url": "https://github.com/balavishnuvj/rtl-simple-queries/issues"
+  },
+  "homepage": "https://github.com/balavishnuvj/rtl-simple-queries#readme",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "kcd-scripts build",
+    "lint": "kcd-scripts lint",
+    "setup": "npm install && npm run validate -s",
+    "test": "kcd-scripts test",
+    "test:update": "npm test -- --updateSnapshot --coverage",
+    "validate": "kcd-scripts validate"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.9.6"
+  },
+  "devDependencies": {
+    "kcd-scripts": "^6.5.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/kcd-scripts/eslint.js"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ],
+  "peerDependencies": {
+    "@testing-library/react": "^11.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

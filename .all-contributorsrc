@@ -1,0 +1,27 @@
+{
+  "projectName": "rtl-simple-queries",
+  "projectOwner": "balavishnuvj",
+  "imageSize": 100,
+  "commit": false,
+  "contributorsPerLine": 7,
+  "repoHost": "https://github.com",
+  "repoType": "github",
+  "skipCi": false,
+  "files": [
+    "README.md"
+  ],
+  "contributors": [
+    {
+      "login": "balavishnuvj",
+      "name": "Balavishnu V J",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13718688",
+      "profile": "https://github.com/balavishnuvj",
+      "contributions": [
+        "code",
+        "doc",
+        "infra",
+        "test"
+      ]
+    }
+  ]
+}
