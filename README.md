@@ -29,7 +29,7 @@ and `findAllBy`.
 
 We have to remember which one to use when. The name of methods is entirely a
 familiarity thing. But just by the name of the method it bit difficult to know
-which one would throw erorr if element is not found, or which one is async.
+which one would throw error if an element is not found or which takes into account async updates.
 
 ## This solution
 
@@ -96,7 +96,7 @@ const {fetchByText} = render(<p>text</p>)
 
 You can refer to
 [cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet#queries)
-when you forget.
+as a quick reference.
 
 ## Issues
 
