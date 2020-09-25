@@ -14,7 +14,7 @@
 [![MIT License][license-badge]][license]
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![PRs Welcome][prs-badge]][prs]
 [![Code of Conduct][coc-badge]][coc]
@@ -125,13 +125,13 @@ Thanks goes to these people ([emoji key][emojis]):
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/balavishnuvj/"><img src="https://avatars2.githubusercontent.com/u/13718688" width="100px;" alt="Balavishnu V J"/><br /><sub><b>Balavishnu V J</b></sub></a><br /><a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=balavishnuvj" title="Code">💻</a> <a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=balavishnuvj" title="Documentation">📖</a> <a href="#infra-balavishnuvj" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=balavishnuvj" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/balavishnuvj"><img src="https://avatars2.githubusercontent.com/u/13718688" width="100px;" alt=""/><br /><sub><b>Balavishnu V J</b></sub></a><br /><a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=balavishnuvj" title="Code">💻</a> <a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=balavishnuvj" title="Documentation">📖</a> <a href="#infra-balavishnuvj" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=balavishnuvj" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://www.pcoroneos.com"><img src="https://avatars2.githubusercontent.com/u/40515238?v=4" width="100px;" alt=""/><br /><sub><b>Paul Coroneos</b></sub></a><br /><a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=PaulACoroneos" title="Documentation">📖</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
