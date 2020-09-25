@@ -126,6 +126,7 @@ Thanks goes to these people ([emoji key][emojis]):
 <table>
   <tr>
     <td align="center"><a href="https://github.com/balavishnuvj"><img src="https://avatars2.githubusercontent.com/u/13718688" width="100px;" alt=""/><br /><sub><b>Balavishnu V J</b></sub></a><br /><a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=balavishnuvj" title="Code">💻</a> <a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=balavishnuvj" title="Documentation">📖</a> <a href="#infra-balavishnuvj" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=balavishnuvj" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://www.pcoroneos.com"><img src="https://avatars2.githubusercontent.com/u/40515238?v=4" width="100px;" alt=""/><br /><sub><b>Paul Coroneos</b></sub></a><br /><a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=PaulACoroneos" title="Documentation">📖</a></td>
     <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars0.githubusercontent.com/u/1500684?v=4" width="100px;" alt=""/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="#ideas-kentcdodds" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/balavishnuvj/rtl-simple-queries/commits?author=kentcdodds" title="Documentation">📖</a></td>
   </tr>
 </table>
