@@ -70,12 +70,12 @@ async we only have one option `allowMultiple`
 ```javascript
 import {screen} from 'rtl-simple-queries'
 
-fetchByText(/text/, {allowEmpty: true, allowMultiple: false})
-fetchByText(/text/, {allowMultiple: false})
-fetchByText(/text/)
+screen.fetchByText(/text/, {allowEmpty: true, allowMultiple: false})
+screen.fetchByText(/text/, {allowMultiple: false})
+screen.fetchByText(/text/)
 
 // async
-await fetchByTextAsync(/text/, {allowMultiple: true})
+await screen.fetchByTextAsync(/text/, {allowMultiple: true})
 ```
 
 To use queies for scoped container we could do
