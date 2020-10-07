@@ -44,8 +44,6 @@
     "dist"
   ],
   "peerDependencies": {
-    "@testing-library/react": "^11.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "@testing-library/dom": "^7.24.5"
   }
 }
