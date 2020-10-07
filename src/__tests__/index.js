@@ -1,8 +1,9 @@
-import * as rtlUtils from '@testing-library/react'
+// eslint-disable-next-line testing-library/no-dom-import
+import * as rtlUtils from '@testing-library/dom'
 import {screen} from '../'
 import {variants} from '../simple-queries'
 
-jest.mock('@testing-library/react')
+jest.mock('@testing-library/dom')
 describe('Cases of screen', () => {
   afterEach(() => {
     jest.resetAllMocks()

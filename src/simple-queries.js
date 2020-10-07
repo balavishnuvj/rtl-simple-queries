@@ -1,4 +1,5 @@
-import {screen as rtlScreen} from '@testing-library/react'
+// eslint-disable-next-line testing-library/no-dom-import
+import {screen as rtlScreen} from '@testing-library/dom'
 
 export const variants = [
   'LabelText',
